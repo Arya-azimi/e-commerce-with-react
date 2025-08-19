@@ -67,7 +67,3 @@ export default tseslint.config([
   },
 ])
 ```
-# e-commerce-with-react
-# e-commerce-with-react
-# e-commerce-with-react
-# e-commerce-with-react
