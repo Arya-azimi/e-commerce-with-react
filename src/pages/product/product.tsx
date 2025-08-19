@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Product } from "../../types";
 import { Header } from "../../components";
 import { getProductBySlug } from "../../services";
 import { useCartStore } from "../../state";
-import { useAuth } from "../../hooks";
+// import { useAuth } from "../../hooks";
 
 function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -12,8 +12,8 @@ function ProductDetail() {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const { user } = useAuth();
-  const navigate = useNavigate();
+  // const { user } = useAuth();
+  // const navigate = useNavigate();
   const addItemToCart = useCartStore((state) => state.addItem);
 
   // const handleAddToCart = (e: React.MouseEvent) => {
