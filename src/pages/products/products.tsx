@@ -3,7 +3,7 @@ import { useProducts } from "../../hooks/";
 import { Card } from "../../components";
 import { Header } from "../../components/";
 
-export function ProductsPage() {
+function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
   const searchTerm = searchParams.get("search") || "";
   const sortOption = searchParams.get("sort") || "newest";
@@ -83,3 +83,5 @@ export function ProductsPage() {
     </div>
   );
 }
+
+export { Products };
