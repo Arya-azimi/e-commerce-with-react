@@ -336,13 +336,49 @@
       "id": "6ef58b52-332c-4cdb-abca-a73f0e1c4cea",
       "username": "arya",
       "password": "12345"
+    },
+    {
+      "id": "3c48266a-630c-44b3-866d-882eb7b531a3",
+      "username": "aryssssa",
+      "password": "12345"
     }
   ],
   "carts": [
     {
       "userId": "6ef58b52-332c-4cdb-abca-a73f0e1c4cea",
-      "items": [],
+      "items": [
+        {
+          "id": 1,
+          "name": "محصول",
+          "price": 129.99,
+          "category": "الکترونیک",
+          "slug": "zenith-gaming-headset",
+          "description": "طراحی ارگونومیک با صدای فراگیر 7.1 کاناله برای تجربه بی‌نظیر گیمینگ.",
+          "imageUrl": "https://picsum.photos/800/600?random=1",
+          "isFeatured": true,
+          "createdAt": "2025-08-18T10:00:00Z",
+          "quantity": 1
+        }
+      ],
       "id": 1
+    },
+    {
+      "userId": "3c48266a-630c-44b3-866d-882eb7b531a3",
+      "items": [
+        {
+          "id": 1,
+          "name": "محصول",
+          "price": 129.99,
+          "category": "الکترونیک",
+          "slug": "zenith-gaming-headset",
+          "description": "طراحی ارگونومیک با صدای فراگیر 7.1 کاناله برای تجربه بی‌نظیر گیمینگ.",
+          "imageUrl": "https://picsum.photos/800/600?random=1",
+          "isFeatured": true,
+          "createdAt": "2025-08-18T10:00:00Z",
+          "quantity": 1
+        }
+      ],
+      "id": 2
     }
   ]
 }
