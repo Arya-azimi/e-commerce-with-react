@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name":"محصول",
+      "name": "محصول",
       "price": 129.99,
       "category": "الکترونیک",
       "slug": "zenith-gaming-headset",
@@ -13,8 +13,8 @@
     },
     {
       "id": 2,
-      "name":"محصول",
-      "price": 249.50,
+      "name": "محصول",
+      "price": 249.5,
       "category": "الکترونیک",
       "slug": "max-smartwatch",
       "description": "نمایشگر OLED، ردیابی فعالیت‌های ورزشی و باتری با دوام بالا.",
@@ -24,8 +24,8 @@
     },
     {
       "id": 3,
-      "name":"محصول",
-      "price": 750.00,
+      "name": "محصول",
+      "price": 750,
       "category": "پهپاد",
       "slug": "falcon-4k-drone",
       "description": "دوربین با کیفیت 4K و قابلیت‌های پرواز خودکار برای تصویربرداری هوایی.",
@@ -35,8 +35,8 @@
     },
     {
       "id": 4,
-      "name":"محصول",
-      "price": 85.00,
+      "name": "محصول",
+      "price": 85,
       "category": "الکترونیک",
       "slug": "pro-bluetooth-speaker",
       "description": "صدای استریو با کیفیت بالا، ضدآب و قابل حمل.",
@@ -46,8 +46,8 @@
     },
     {
       "id": 5,
-      "name":"محصول",
-      "price": 110.00,
+      "name": "محصول",
+      "price": 110,
       "category": "الکترونیک",
       "slug": "mechanical-keyboard",
       "description": "کلیدهای مکانیکی با نورپردازی RGB برای تایپ و گیمینگ.",
@@ -57,8 +57,8 @@
     },
     {
       "id": 6,
-      "name":"محصول",
-      "price": 45.00,
+      "name": "محصول",
+      "price": 45,
       "category": "خانه و آشپزخانه",
       "slug": "smart-desk-lamp",
       "description": "نور قابل تنظیم، کنترل لمسی و قابلیت اتصال به وای‌فای.",
@@ -68,8 +68,8 @@
     },
     {
       "id": 7,
-      "name":"محصول",
-      "price": 70.00,
+      "name": "محصول",
+      "price": 70,
       "category": "سفر و ماجراجویی",
       "slug": "travel-backpack",
       "description": "فضای بزرگ، جیب‌های متعدد و طراحی مقاوم برای سفرهای طولانی.",
@@ -79,7 +79,7 @@
     },
     {
       "id": 8,
-      "name":"محصول",
+      "name": "محصول",
       "price": 199.99,
       "category": "خانه و آشپزخانه",
       "slug": "automatic-coffee-maker",
@@ -90,8 +90,8 @@
     },
     {
       "id": 9,
-      "name":"محصول",
-      "price": 55.00,
+      "name": "محصول",
+      "price": 55,
       "category": "خانه و آشپزخانه",
       "slug": "smart-mug",
       "description": "دمای نوشیدنی شما را در طول روز ثابت نگه می‌دارد.",
@@ -101,8 +101,8 @@
     },
     {
       "id": 10,
-      "name":"محصول",
-      "price": 35.00,
+      "name": "محصول",
+      "price": 35,
       "category": "لوازم ورزشی",
       "slug": "yoga-mat",
       "description": "ضخیم و ضد لغزش برای تمرینات یوگا و پیلاتس.",
@@ -112,8 +112,8 @@
     },
     {
       "id": 11,
-      "name":"محصول",
-      "price": 500.00,
+      "name": "محصول",
+      "price": 500,
       "category": "سرگرمی",
       "slug": "space-telescope",
       "description": "مشاهده سیارات و ستاره‌ها با وضوح بالا.",
@@ -123,8 +123,8 @@
     },
     {
       "id": 12,
-      "name":"محصول",
-      "price": 150.00,
+      "name": "محصول",
+      "price": 150,
       "category": "الکترونیک",
       "slug": "wireless-headphones",
       "description": "کیفیت صدای عالی با حذف نویز فعال.",
@@ -134,8 +134,8 @@
     },
     {
       "id": 13,
-      "name":"محصول",
-      "price": 25.00,
+      "name": "محصول",
+      "price": 25,
       "category": "لوازم ورزشی",
       "slug": "resistance-bands",
       "description": "ست کامل بندهای مقاومتی برای تمرینات قدرتی.",
@@ -145,8 +145,8 @@
     },
     {
       "id": 14,
-      "name":"محصول",
-      "price": 15.00,
+      "name": "محصول",
+      "price": 15,
       "category": "پایداری",
       "slug": "reusable-water-bottle",
       "description": "ساخته شده از مواد بازیافتی و بدون BPA.",
@@ -156,8 +156,8 @@
     },
     {
       "id": 15,
-      "name":"محصول",
-      "price": 300.00,
+      "name": "محصول",
+      "price": 300,
       "category": "مد و پوشاک",
       "slug": "classic-watch",
       "description": "طراحی ظریف و شیک با بند چرمی.",
@@ -167,8 +167,8 @@
     },
     {
       "id": 16,
-      "name":"محصول",
-      "price": 40.00,
+      "name": "محصول",
+      "price": 40,
       "category": "الکترونیک",
       "slug": "wireless-charger",
       "description": "شارژ سریع و آسان برای گوشی‌های هوشمند.",
@@ -178,8 +178,8 @@
     },
     {
       "id": 17,
-      "name":"محصول",
-      "price": 30.00,
+      "name": "محصول",
+      "price": 30,
       "category": "خانه و آشپزخانه",
       "slug": "essential-oil-diffuser",
       "description": "ایجاد محیطی آرامش‌بخش با رایحه‌های طبیعی.",
@@ -189,8 +189,8 @@
     },
     {
       "id": 18,
-      "name":"محصول",
-      "price": 95.00,
+      "name": "محصول",
+      "price": 95,
       "category": "خانه و آشپزخانه",
       "slug": "powerful-blender",
       "description": "تیغه‌های استیل ضد زنگ و موتور قوی برای مخلوط کردن انواع مواد.",
@@ -200,8 +200,8 @@
     },
     {
       "id": 19,
-      "name":"محصول",
-      "price": 18.00,
+      "name": "محصول",
+      "price": 18,
       "category": "لوازم ورزشی",
       "slug": "professional-jump-rope",
       "description": "دسته ارگونومیک و کابل قابل تنظیم برای سرعت و تمرینات حرفه‌ای.",
@@ -211,8 +211,8 @@
     },
     {
       "id": 20,
-      "name":"محصول",
-      "price": 180.00,
+      "name": "محصول",
+      "price": 180,
       "category": "لوازم کمپینگ",
       "slug": "camping-tent",
       "description": "سبک، مقاوم در برابر آب و باد، مناسب برای دو نفر.",
@@ -222,8 +222,8 @@
     },
     {
       "id": 21,
-      "name":"محصول",
-      "price": 50.00,
+      "name": "محصول",
+      "price": 50,
       "category": "سرگرمی",
       "slug": "art-kit",
       "description": "شامل رنگ، قلم‌مو و بوم برای شروع نقاشی.",
@@ -233,8 +233,8 @@
     },
     {
       "id": 22,
-      "name":"محصول",
-      "price": 45.00,
+      "name": "محصول",
+      "price": 45,
       "category": "پایداری",
       "slug": "indoor-garden-kit",
       "description": "باغچه کوچک برای کاشت گیاهان در داخل خانه.",
@@ -244,8 +244,8 @@
     },
     {
       "id": 23,
-      "name":"محصول",
-      "price": 22.00,
+      "name": "محصول",
+      "price": 22,
       "category": "سفر و ماجراجویی",
       "slug": "bicycle-light",
       "description": "نور LED قوی و مقاوم در برابر آب برای ایمنی در شب.",
@@ -255,8 +255,8 @@
     },
     {
       "id": 24,
-      "name":"محصول",
-      "price": 400.00,
+      "name": "محصول",
+      "price": 400,
       "category": "الکترونیک",
       "slug": "camera-lens",
       "description": "لنز با کیفیت بالا برای عکاسی حرفه‌ای.",
@@ -266,8 +266,8 @@
     },
     {
       "id": 25,
-      "name":"محصول",
-      "price": 280.00,
+      "name": "محصول",
+      "price": 280,
       "category": "الکترونیک",
       "slug": "studio-microphone",
       "description": "میکروفون با کیفیت بالا برای ضبط صدا و پادکست.",
@@ -277,8 +277,8 @@
     },
     {
       "id": 26,
-      "name":"محصول",
-      "price": 130.00,
+      "name": "محصول",
+      "price": 130,
       "category": "خانه و آشپزخانه",
       "slug": "air-fryer",
       "description": "برای پخت و پز غذاهای سالم و کم روغن.",
@@ -288,8 +288,8 @@
     },
     {
       "id": 27,
-      "name":"محصول",
-      "price": 35.00,
+      "name": "محصول",
+      "price": 35,
       "category": "الکترونیک",
       "slug": "power-bank",
       "description": "شارژ سریع و ظرفیت بالا برای دستگاه‌های همراه.",
@@ -299,8 +299,8 @@
     },
     {
       "id": 28,
-      "name":"محصول",
-      "price": 60.00,
+      "name": "محصول",
+      "price": 60,
       "category": "لوازم ورزشی",
       "slug": "smart-band",
       "description": "ردیابی فعالیت، ضربان قلب و کیفیت خواب.",
@@ -310,8 +310,8 @@
     },
     {
       "id": 29,
-      "name":"محصول",
-      "price": 50.00,
+      "name": "محصول",
+      "price": 50,
       "category": "لوازم کمپینگ",
       "slug": "travel-blanket",
       "description": "بسیار سبک و گرم، مناسب برای سفر و کمپینگ.",
@@ -321,14 +321,28 @@
     },
     {
       "id": 30,
-      "name":"محصول",
-      "price": 25.00,
+      "name": "محصول",
+      "price": 25,
       "category": "الکترونیک",
       "slug": "laptop-stand",
       "description": "طراحی قابل تنظیم و تهویه مناسب برای استفاده طولانی مدت.",
       "imageUrl": "https://picsum.photos/800/600?random=30",
       "isFeatured": false,
       "createdAt": "2025-07-20T16:30:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "6ef58b52-332c-4cdb-abca-a73f0e1c4cea",
+      "username": "arya",
+      "password": "12345"
+    }
+  ],
+  "carts": [
+    {
+      "userId": "6ef58b52-332c-4cdb-abca-a73f0e1c4cea",
+      "items": [],
+      "id": 1
     }
   ]
 }

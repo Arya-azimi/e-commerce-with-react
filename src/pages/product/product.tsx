@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../types";
-import { Header } from "../../components";
 import { getProductBySlug } from "../../services";
-import { useCartStore } from "../../state";
-// import { useAuth } from "../../hooks";
+import { useAddToCart } from "../../hooks";
 
 function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -12,18 +10,7 @@ function ProductDetail() {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  // const { user } = useAuth();
-  // const navigate = useNavigate();
-  const addItemToCart = useCartStore((state) => state.addItem);
-
-  // const handleAddToCart = (e: React.MouseEvent) => {
-  // e.preventDefault();
-  // if (user) {
-  // addItemToCart(product);
-  // } else {
-  // navigate("/login");
-  // }
-  // };
+  const { handleAddToCart } = useAddToCart();
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -61,7 +48,6 @@ function ProductDetail() {
 
   return (
     <div>
-      <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2">
@@ -85,7 +71,7 @@ function ProductDetail() {
               </span>
             </div>
             <button
-              onClick={() => addItemToCart(product)}
+              onClick={() => handleAddToCart(product)}
               className="mt-8 px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
             >
               خرید

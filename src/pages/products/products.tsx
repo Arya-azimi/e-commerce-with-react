@@ -1,7 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 import { useProducts } from "../../hooks/";
 import { Card } from "../../components";
-import { Header } from "../../components/";
 
 function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -53,7 +52,6 @@ function Products() {
 
   return (
     <div>
-      <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between mb-6">
           <input

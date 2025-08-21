@@ -1,4 +1,4 @@
-import { Card, Header } from "../../components";
+import { Card } from "../../components";
 import { useProducts } from "../../hooks";
 
 function Home() {
@@ -10,7 +10,6 @@ function Home() {
 
   return (
     <div>
-      <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="bg-black bg-right-top bg-no-repeat h-56 flex items-center justify-center rounded-lg mb-8 bg-[url(https://wallpapers.com/images/high/lebron-james-in-red-nba-desktop-cx5cgw7ex8nh4oi4.webp)] md:h-96 "></div>
         <h2 className="text-3xl font-bold mb-6">محصولات پرفروش</h2>
