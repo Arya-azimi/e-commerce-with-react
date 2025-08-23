@@ -5,10 +5,10 @@ export function useAuthForm() {
   const [password, setPassword] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { id, value } = e.target;
-    if (id === "username") {
+    const { name, value } = e.target;
+    if (name === "username") {
       setUsername(value);
-    } else if (id === "password") {
+    } else if (name === "password") {
       setPassword(value);
     }
   };

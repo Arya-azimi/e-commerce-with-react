@@ -11,7 +11,7 @@ function Card({ product }: ProductCardProps) {
 
   return (
     <Link
-      to={`/product/${product.slug}`}
+      to={`/products/${product.slug}`}
       className="block overflow-hidden rounded-lg shadow-md transition-shadows border-2 ho hover:shadow-xl"
     >
       <img

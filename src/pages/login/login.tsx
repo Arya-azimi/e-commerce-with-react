@@ -32,6 +32,7 @@ function Login() {
             </label>
             <input
               type="text"
+              name="username"
               id="username"
               value={username}
               onChange={handleChange}
@@ -49,6 +50,7 @@ function Login() {
             </label>
             <input
               type="password"
+              name="password"
               id="password"
               value={password}
               onChange={handleChange}

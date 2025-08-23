@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white shadow h-[8vh]  flex justify-between items-center">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-gray-900">
           فروشگاه

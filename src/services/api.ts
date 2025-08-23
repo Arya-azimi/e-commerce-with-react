@@ -1,6 +1,5 @@
-import { Product } from "../types";
-
-const API_URL = "http://localhost:3000";
+import { Product } from "../domain";
+import { API_URL } from "../constants";
 
 async function getProducts(): Promise<Product[]> {
   const response = await fetch(`${API_URL}/products`);
@@ -19,10 +18,10 @@ async function getFeaturedProducts(): Promise<Product[]> {
 }
 
 async function getProductBySlug(slug: string): Promise<Product> {
-  const response = await fetch(`${API_URL}/products?slug=${slug}`);
+  const response = await fetch(`${API_URL}/products/${slug}`);
   const data = await response.json();
   if (!response.ok || data.length === 0) {
-    throw new Error("Product not found");
+    throw new Error(`محصول با اسلاگ "${slug}" پیدا نشد.`);
   }
   return data[0];
 }

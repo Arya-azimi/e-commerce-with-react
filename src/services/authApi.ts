@@ -1,18 +1,6 @@
-// src/services/authApi.ts
 import { v4 as uuidv4 } from "uuid";
-import { Product } from "../types";
-
-const API_URL = "http://localhost:3000";
-
-interface AuthResult {
-  username: string;
-  token: string;
-  userId: string;
-}
-
-interface CartItem extends Product {
-  quantity: number;
-}
+import { AuthResult, CartItem } from "../domain";
+import { API_URL } from "../constants";
 
 interface UserData {
   id: string;
@@ -82,7 +70,6 @@ export async function saveCart(userId: string, items: CartItem[]) {
   const existingCarts = await checkCartResponse.json();
 
   if (existingCarts.length > 0) {
-    // If cart exists, update it
     const cartId = existingCarts[0].id;
     await fetch(`${API_URL}/carts/${cartId}`, {
       method: "PUT",
@@ -90,7 +77,6 @@ export async function saveCart(userId: string, items: CartItem[]) {
       body: JSON.stringify({ userId, items }),
     });
   } else {
-    // If cart doesn't exist, create a new one
     await fetch(`${API_URL}/carts`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
